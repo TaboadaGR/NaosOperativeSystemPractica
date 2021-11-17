@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400&display=swap');
+
+*{
+	margin: 0px auto;
+	font-family: 'Spartan', sans-serif;
+}
+
+#contenedor-general{
+	background-color: whitesmoke;
+	height: auto;
+}
+
+header{
+	background-color: whitesmoke;
+	display: flex;
+	width: all;
+	color: black;
+}
+
+#imagen-logo{
+margin-left: 10px;
+}
+
+#titulo-cabecera{
+	margin-top: 55px;
+	font-size: 80px;
+	text-transform: uppercase;
+	margin-left: -50px;
+}
+.eslogan{
+	font-size: 10px;
+	margin-left: 40px;
+}
+
+#menu-horizontal{
+
+margin-right: 220px;
+margin-top: 70px;
+}
+
+#menu-horizontal ul li{
+	list-style: none;
+	display: inline-flex;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.li1:hover{
+	color: #FFB10B;
+	border-bottom: 2px solid #FFB10B;
+}
+.li2:hover{
+	color: #FFDA0B;
+	border-bottom: 2px solid #FFDA0B;
+}
+.li3:hover{
+	color: #FFF60B;
+	border-bottom: 2px solid #FFF60B;
+}
+
+#initial-info-contenedor{
+	height: 600px;
+	width: all;
+	color: black;
+	background: linear-gradient(whitesmoke,#CFCFCF);
+	display: flex;
+}
+#initial-texto{
+	width: 30%;
+	float: left;
+	margin-left: 60px;
+	margin-top: 250px;
+	display: flex;
+	text-align: justify;
+}
+#imagen-example{
+	display: flex;
+	height: 400px;
+	margin: auto;
+	border: 2px solid black ;
+}
+
+#extras-contenedor{
+	background-color: #CFCFCF;
+	height: 600px;
+	width: all;
+	display: flex;
+}
+.extra1{
+	text-align: center;
+	margin: auto;
+	background-color: whitesmoke;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	font-size: 20px;
+}
+
+.extra1:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.extra2{
+	text-align: center;
+	margin: auto;
+	background-color: whitesmoke;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	font-size: 20px;
+}
+
+.extra2:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.extra3{
+	text-align: center;
+	margin: auto;
+	background-color: whitesmoke;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	font-size: 20px;
+}
+
+.extra3:hover{
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.texto-extra1{
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 200px;
+
+}
+.texto-extra2{
+		margin-top: 50px;
+	margin-left: 50px;
+	width: 200px;
+}
+.texto-extra3{
+		margin-top: 50px;
+	margin-left: 50px;
+	width: 200px;
+}
+footer{
+	color: whitesmoke;
+	background-color: black;
+	
+}
+#contenedor-footer{
+	background-color: black;
+	height: 200px;
+	display: inline-flex;
+}
+.info_final{
+	text-align: center;
+	margin: auto;
+	background-color: black;
+	width: 300px;
+	font-size: 20px;
+
+}
+.redes_sociales{
+	text-align: center;
+	margin: auto;
+	background-color: black;
+	width: 300px;
+	font-size: 20px;
+}
