@@ -1,0 +1,104 @@
+.textoGeneral {
+  border: outset;
+  font-family: 'Spartan', sans-serif;
+  font-size: 20px;
+  height: 600px;
+  width: 350px;
+  margin-top: 200px;
+  margin-left: 6% ;
+  margin-right: 6%;
+  padding: 5px;
+  transition: all 0.5s linear;
+}
+.animacionVersion {
+  transform: scale(1.1);
+}
+body {
+  margin: 0;
+}
+video {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+.main {
+  background: linear-gradient(black, whitesmoke);
+  width: 80%;
+  height: 900px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+table {
+  border: outset;
+  border-collapse: separate;
+  border-spacing: 20px 10px;
+}
+
+.imagenes-versiones{
+  width: 250px;
+}
+
+.Versiones-main{
+  display: block;
+  width: 80%;
+  height: 800px;
+}
+.versiones{
+  display:inline-flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.version1 {
+  background-color: grey;
+  border: outset;
+  font-family: 'Spartan', sans-serif;
+  font-size: 16px;
+  height: 600px;
+  width: 20%;
+  margin-top: 200px;
+  padding: 15px;
+  transition: all 0.5s linear;
+}
+.version2 {
+  background-color: grey;
+  border: outset;
+  font-family: 'Spartan', sans-serif;
+  font-size: 16px;
+  height: 600px;
+  width: 20%;
+  margin-top: 200px;
+  padding: 15px;
+  transition: all 0.5s linear;
+}
+.version3 {
+  background-color: grey;
+  border: outset;
+  font-family: 'Spartan', sans-serif;
+  font-size: 16px;
+  height: 600px;
+  width: 20%;
+  margin-top: 200px;
+  padding: 15px;
+  transition: all 0.5s linear;
+}
+.espacio-disco-extra{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+/*.version1:hover {
+  transform: scale(1.1);
+}
+.version2:hover {
+  transform: scale(1.1);
+}
+.version3:hover {
+  transform: scale(1.1);
+}*/

@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    
+   background: rgb(0,0,0);
+background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(186,186,186,1) 50%, rgba(255,175,0,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(186,186,186,1) 50%, rgba(255,175,0,1) 100%);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(186,186,186,1) 50%, rgba(255,175,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffaf00",GradientType=1);
+height: 100%;
+   
+}
+
+.main-forum{
+	width: 100%;
+	height: 100%;
+}
+
+.container-header{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.comentIni{
+	background-color:whitesmoke ;
+	margin-bottom: 20px;
+	background-color: #E0E0E0;
+	width: 600px;
+	height: 100px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.coment{
+	background-color:whitesmoke ;
+	margin-bottom: 20px;
+	background-color: #E0E0E0;
+	width: 600px;
+	height: 100px;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.chat-main{
+	margin-top: 200px;
+	width: 60%;
+}
+#tabla-comentarios{
+	padding-top: 200px;
+}
+#tabla{
+	background-color: #4d4d4d;
+	width: 80%;
+	overflow-y: scroll;
+	height: 700px;
+}
+#tabla::scroll{
+	display: none;
+}
+.boton-comentario{
+	position: fixed;
+	bottom: 80px;
+	right: 220px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>foro</title>
+	<link rel="shortcut icon" href="imagenes/Naos-logo.png"> 
+	<link rel="stylesheet" type="text/css" href="StylesJs.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="forumCSS.css" media="screen">
+	<script type="text/javascript" src="comentariosJS.js"></script>
+</head>
+<body onload="bienvenida();">
+	<div class="main-forum">
+		<div class="header_class">
+			<div class="container-header">
+				<div class="imagen-logo">
+					<img src="imagenes/Naos-logo.png" width="200px">
+				</div>
+
+				<div class="titulo-cabecera">
+					<p>NAOS</p>
+				</div>
+		<!-- espacio para mantener estructurado el diplay -->
+				<div class="espacio-vacio"></div>
+				<div class="menu-contenedor">
+					<nav class="menu-horizontal">
+						<ul>
+							<li class="li1"><a href="MainPage.html">Inicio</a></li>
+							<li class="li1"><a href="Download.html">Download</a></li>
+							<li class="li3"><a href="foro.html">forum</a></li>
+							<li class="li3"><a href="Download.html">Contacto</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+
+<div class="chat_main">
+	<div id="tabla-comentarios" >
+   		<div id="tabla">
+		</div>
+    </div>
+	
+	<div class="boton-comentario">
+	   	<input id="comentario" type="text" placeholder="Ingrese su comentario" >
+	   	<button id="boton" type="submit" onclick="chat();">Postear</button>
+	</div>
+</div>
+		
+	</div>
+
+</body>
+</html>
