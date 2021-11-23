@@ -61,7 +61,15 @@ height: 100%;
 	display: none;
 }
 .boton-comentario{
-	position: fixed;
+	position: absolute;
 	bottom: 80px;
 	right: 220px;
+}
+@media only screen and (max-width: 980px) {
+
+	.comentario{
+		width: 30% !important;
+		height: 300px !important;
+	}
+
 }

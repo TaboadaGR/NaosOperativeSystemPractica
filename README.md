@@ -1,2 +1,0 @@
-# NaosOperativeSystemPractica
-practica de web

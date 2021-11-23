@@ -1,11 +1,20 @@
 
+/*CSS less de la página de dscargas de NAOS*/
 
+
+/*Declaro una serie de variables con 
+colores estandarizados de la página*/
 
 @colorPrimario:black;
 @colorSecundario:whitesmoke;
 @colorBg: grey;
 
 @height: 900px;
+
+
+body{
+	margin: 0;
+}
 
 .textoGeneral{
   border: outset;
@@ -21,11 +30,6 @@
 .animacionVersion{
  transform: scale(1.1);
 }
-
-body{
-	margin: 0;
-}
-
 
 video{
 	position: fixed;
@@ -50,10 +54,26 @@ video{
 	margin: 0 auto;
 	margin-top: 45px;
 }
+.imagenes-versiones{
+  width: 250px;
+}
+
 table{
   border: outset;
   border-collapse: separate;
   border-spacing: 20px 10px;
+}
+
+.Versiones-main{
+  display: block;
+  width: 80%;
+  height: 800px;
+}
+
+.versiones{
+  display:inline-flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .version1{
@@ -74,12 +94,48 @@ table{
   justify-content: center;
 
 }
-.version1:hover{
- .animacionVersion();
+.menu-horizontal{
+  margin-left: -60%;
 }
-.version2:hover{
- .animacionVersion();
+@media only screen and (max-width: 1450px) {
+
+  .menu-horizontal{
+  margin-left: -450px;
+  margin-top: -50px;
 }
-.version3:hover{
- .animacionVersion();
+.header_class{
+  justify-content: left;
 }
+.main{
+  height: 2600px;
+}
+.versiones{
+  display: block;
+}
+.version1 {
+  width: 30%;
+}
+.version2 {
+  width: 30%;
+}
+.version3 {
+  width: 30%;
+}
+
+.imagenes-versiones{
+  width: 20 vw;
+}
+  }
+
+  @media only screen and (max-width: 1450px) {
+
+    .header_class{
+      width: 86% !important;
+    }
+    .titulo-cabecera{
+          margin-left:0px !important;
+    }
+    .menu-contenedor{
+      margin-left: 20em!important;
+}
+  }

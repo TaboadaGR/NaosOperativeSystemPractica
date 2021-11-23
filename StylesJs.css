@@ -14,7 +14,8 @@
 	color: white;
 	position: fixed;
 	display: flex;
-	width: all;
+	width: 100%;
+	z-index: 1;
 }
 
 .imagen-logo{
@@ -28,16 +29,9 @@
 	text-transform: uppercase;
 }
 
-.eslogan{
-	margin-left: 40px;
-	margin-top: -40px;
-	font-size: 13px;
-}
-
 .menu-contenedor{
 	background-color: black,#CFCFCF;
 	margin-top: 70px;
-	padding-left: 300px;
 }
 
 .menu-contenedor nav ul li{
@@ -46,7 +40,6 @@
 	display: inline-flex;
 	text-align: center;
 	list-style: none;
-
 }
 
 .li1 a{
@@ -81,7 +74,7 @@
 	background: linear-gradient(black,#CFCFCF);
 	color: whitesmoke;
 	display: flex;
-	width: all;
+	width: 100%;
 	height: 600px;	
 }
 
@@ -178,6 +171,7 @@
     width: 100%;
     height: 100%;
   	border: outset;
+  	z-index: 0;
   }
 
 footer{
@@ -189,7 +183,8 @@ footer{
 .contenedor-footer{
 	background-color: black;
 	height: 50px;
-	display:inline-flex;
+	display:flex;
+	justify-content: space-around;
 }
 .info_final{
 	text-align: center;
@@ -201,15 +196,32 @@ footer{
 
 }
 @media only screen and (max-width: 1450px) {
-	
-	.menu-contenedor{
-		
-	}
 
 	.menu-contenedor nav ul li{
 		display: block;
+		font-size: 30px;
+	}
+
+	.imagen-example{
+		margin-top: 250px;
+		height: 350px;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 1090px) {
+.imagen-example{
+	display: none;
+}
+.initial-texto{
+	font-size: 30px;
+	justify-content: center;
+	margin: auto;
+	margin-top:400px ;
+	width: 80%;
 }
 
+
 }
+
 
 
